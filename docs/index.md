@@ -1,5 +1,5 @@
 # Home
-# Replicating genome-wide YAP/TAZ/TEAD figures — a step-by-step guide for biologists
+Replicating genome-wide YAP/TAZ/TEAD figures — a step-by-step guide for biologists
 
 This repository is written for life science students and wet-lab researchers who want to understand and reproduce published genomics figures, but do not come from a computational background.
 
