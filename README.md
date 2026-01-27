@@ -1,0 +1,2 @@
+# Replicating-figures-of-Genome-wide-association-between-YAP-TAZ-TEAD-
+This repository is to replicate the figures of the paper " Genome-wide association between YAP/TAZ/TEAD and AP-1 at enhancers drives oncogenic growth" with the help of the tutorials by Tommy Tang (Chatomics). Being a life sciences student with no background in running codes, this repository is to help individuals like me transition smoothly.
