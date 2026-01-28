@@ -1,25 +1,17 @@
 # Home
-Replicating genome-wide YAP/TAZ/TEAD figures — a step-by-step guide for biologists
+## Replication of key figures from the paper *"Replicating the Figures of Genome-wide association between YAP/TAZ/TEAD and AP-1 at enhancers drives oncogenic growth"*. 
 
 This repository is written for life science students and wet-lab researchers who want to understand and reproduce published genomics figures, but do not come from a computational background.
 
-The tutorial walks through the replication of key figures from the paper  
-*“Genome-wide association between YAP/TAZ/TEAD and AP-1 at enhancers drives oncogenic growth”*,  
-focusing on how ChIP–seq data are processed, analyzed, and interpreted to support the biological conclusions.
+The goal is to use tools and programming language to successfully replicate the figures of the study. The disclaimer to be given here is that I follow the codes as provided by Tommy Tang (Chatomics) in his Github repository. So what is the catch?
 
-Rather than presenting a collection of scripts or a dense README, this project is structured as a linear course.
-Each step explains **why** a computational operation is performed before showing **how** it is done.
+I am a translational biological sciences student working on an HP laptop with a Windows operating system. Therefore, even in following the structures provided by Tommy Tang, I have come up against several roadblocks. Also, not knowing the functions of commands and how to work across environments, I had to go back and forth between running codes and the theory or logic behind those codes. Taking all of it together, I have built this repository.
 
-The tutorial is organized into sequential steps that mirror the logic of a ChIP–seq analysis:
+I have also engaged in a lot of trial and errors. I will be uploading both my initial approaches and how I pivoted when I hit a roadblock along with the mistakes I made along the way so that anyone following this will not hit a wall making the same mistakes. 
 
-- understanding the data and where it comes from  
-- assessing data quality  
-- aligning reads to the genome  
-- generating signal tracks  
-- calling peaks  
-- connecting computational outputs back to published figures  
-
-You are encouraged to move through the pages in order.
+You are encouraged to move through the pages in order. This will help you know what to do and most importantly what not to do.
 Each step builds conceptually on the previous one, and skipping ahead may make later sections harder to follow.
 
-To begin, start with the workflow overview, which provides a high-level picture of the full analysis before diving into details.
+To begin, start with the workflow overview, which provides a picture of the full analysis before diving into details.
+
+Happy learning!!
