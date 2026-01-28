@@ -1,1 +1,73 @@
-Step 3 – Aligning reads to the genome
+# Step 3 – Aligning reads to the genome
+
+Up to this point, the sequencing data have been treated as collections of short DNA sequences.
+In this step, something important changes: the reads are placed back into a genomic context.
+
+This is the step where the data stop being just strings of letters and start becoming locations in the genome.
+
+## What “alignment” means in practice
+
+Alignment is the process of matching each sequencing read to a position in a reference genome.
+Instead of asking *what is the sequence?*, we start asking *where does this sequence come from?*
+
+After alignment, each read is associated with:
+- a chromosome
+- a genomic coordinate
+- an orientation
+
+This shift is subtle but crucial.
+Once reads are aligned, we can begin to talk about binding events, genomic regions, and regulatory elements in a meaningful way.
+
+## Why a reference genome is needed
+
+Alignment only makes sense if there is something to align the reads *to*.
+That “something” is a reference genome, which serves as a common coordinate system.
+
+The reference genome is not a perfect representation of any one cell.
+Instead, it provides a shared framework that allows different experiments and datasets to be compared in a consistent way.
+
+Thinking of the genome as a coordinate system, rather than a literal sequence, helped me make sense of why alignment works despite biological variability.
+
+## What changes after alignment
+
+Before alignment, all reads are equivalent: they are just sequences.
+After alignment, reads become unevenly distributed across the genome.
+
+Some regions accumulate many reads.
+Other regions have few or none.
+
+These differences are not interpreted yet, but they are the raw material for everything that follows.
+Without alignment, there is no way to talk about enrichment, peaks, or genomic features.
+
+Alignment does not give us answers, but it makes the questions well-defined.
+
+## Imperfect matches and uncertainty
+
+One thing that is easy to overlook is that alignment is not always exact.
+Some reads match the genome equally well in more than one place.
+Others contain sequencing errors or map imperfectly.
+
+This uncertainty is expected.
+Alignment tools make pragmatic decisions about how to handle these cases, balancing sensitivity and specificity.
+
+At this stage, it is enough to know that alignment is an approximation—not a guarantee of biological truth, but a necessary translation step.
+
+## How alignment fits into the larger workflow
+
+Alignment sits at the boundary between raw data and interpretation.
+It is the point where technical sequencing output is converted into something that can be reasoned about biologically.
+
+Once reads are aligned, we can:
+- summarize signal across regions
+- compare samples
+- look for consistent patterns of enrichment
+
+Those steps come next.
+For now, alignment gives the data a place to live in the genome.
+
+## Outcome of this step
+
+By the end of this step, the sequencing reads have been mapped to genomic coordinates.
+The data are still noisy and unprocessed, but they are now grounded in a reference frame.
+
+In the next step, we move from individual aligned reads to continuous signal tracks that summarize binding across the genome.
