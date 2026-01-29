@@ -14,11 +14,6 @@ Patterns of enrichment are more visible.
 Different samples can be compared more directly.
 The data can be visualized alongside genomic features such as genes or enhancers.
 
-## How this step fits into the workflow
-
-Signal generation sits between alignment and peak calling.
-It smooths and summarizes the data, preparing it for more formal identification of enriched regions.
-
 ## Outcome of this step
 
 By the end of this step, the aligned reads have been converted into signal tracks that summarize binding across the genome.
