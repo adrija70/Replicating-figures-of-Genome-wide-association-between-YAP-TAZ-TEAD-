@@ -1,6 +1,6 @@
 # Step 3 – Aligning reads to the genome
 
-Alignment is the process of matching each sequencing read to a position in a reference genome. After alignment, each read is associated with a chromosome or a genomic coordinate
+Alignment is the process of matching each sequencing read to a position in a reference genome. After alignment, each read is associated with a chromosome or a genomic coordinate.
 
 ## Why a reference genome is needed
 
