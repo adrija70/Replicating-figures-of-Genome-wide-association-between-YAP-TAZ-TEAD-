@@ -15,3 +15,7 @@ Alignment only makes sense if there is something to align the reads *to*. That �
 
 By the end of this step, the sequencing reads have been mapped to genomic coordinates.
 
+---
+
+**Previous:** [Step 2 – Quality control](2_Running%20FastQC%20on%20the%20data%20to%20ensure%20quality%20control.md)  
+**Next:** [Step 4 – Signal generation](4_Generating%20signal%20tracks.md)
