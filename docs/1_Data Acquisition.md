@@ -51,3 +51,8 @@ By the end of this step, the goal is simply to have access to the raw sequencing
 
 In the next step, I assess the basic technical quality of these files before doing anything more involved with them.
 
+---
+
+**Previous:** [Workflow overview](workflow.md)  
+**Next:** [Step 2 – Quality control](2_Running%20FastQC%20on%20the%20data%20to%20ensure%20quality%20control.md)
+
