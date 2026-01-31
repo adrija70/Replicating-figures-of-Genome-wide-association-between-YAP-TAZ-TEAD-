@@ -1,0 +1,18 @@
+site_name: Replicating published ChIP–seq figures
+site_description: A peer-level walkthrough for life scientists learning to replicate genomics figures
+site_author: Adrija
+
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Workflow overview: workflow.md
+  - Step 1 – Data acquisition: 1_Data Acquisition.md
+  - Step 2 – Quality control: 2_Running FastQC on the data to ensure quality control.md
+  - Step 3 – Alignment: 3_Aligning reads to the genome.md
+  - Step 4 – Signal generation: 4_Generating signal tracks.md
+  - Step 5 – Peak calling: 5_Peak calling.md
+  - Step 6 – Replicating Figure 1a: 6_Replicating figure1a.md
+
+theme:
+  name: mkdocs
