@@ -23,4 +23,4 @@ To extract biological insight, the raw sequencing reads are transformed through 
 4. **Peak identification**  
    Regions of statistically significant enrichment are identified, representing candidate regulatory elements bound by the proteins of interest.
 
-
+**Next:** [Step 1 – Data acquisition](1_Data%20Acquisition.md)
