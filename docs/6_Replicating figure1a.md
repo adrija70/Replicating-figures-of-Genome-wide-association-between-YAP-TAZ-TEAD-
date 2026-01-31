@@ -21,3 +21,4 @@ When comparing your outputs to Figure 1a, it helps to ask:
 
 By this point, the computational workflow has been connected back to a concrete figure from the paper.
 
+**Previous:** [Step 5 – Peak calling](5_Peak%20calling.md)
