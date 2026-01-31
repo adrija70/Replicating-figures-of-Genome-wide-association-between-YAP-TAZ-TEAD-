@@ -20,3 +20,8 @@ Peak calling relies on thresholds: significance cutoffs, enrichment levels, or m
 ## Outcome of this step
 
 In the next section, we will use these outputs to connect the analysis back to the specific figures presented in the original paper.
+
+---
+
+**Previous:** [Step 4 – Signal generation](4_Generating%20signal%20tracks.md)  
+**Next:** [Step 6 – Replicating Figure 1a](6_Replicating%20figure1a.md)
