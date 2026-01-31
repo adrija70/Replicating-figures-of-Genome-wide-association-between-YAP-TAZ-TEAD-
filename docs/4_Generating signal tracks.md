@@ -18,3 +18,6 @@ The data can be visualized alongside genomic features such as genes or enhancers
 
 By the end of this step, the aligned reads have been converted into signal tracks that summarize binding across the genome.
 The data are now easier to visualize and compare, but still require further processing to define discrete regions of enrichment.
+
+**Previous:** [Step 3 – Alignment](3_Aligning%20reads%20to%20the%20genome.md)  
+**Next:** [Step 5 – Peak calling](5_Peak%20calling.md)
