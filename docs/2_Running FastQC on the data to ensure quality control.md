@@ -36,3 +36,9 @@ Running it on many files quickly raises practical questions about organization, 
 By the end of this step, the goal is to have a basic sense of the technical quality of the raw sequencing files.
 
 In the next step, we move from raw reads to genomic coordinates by aligning the data to a reference genome.
+
+---
+
+**Previous:** [Step 1 – Data acquisition](1_Data%20Acquisition.md)  
+**Next:** [Step 3 – Alignment](3_Aligning%20reads%20to%20the%20genome.md)
+
