@@ -32,7 +32,7 @@ This pattern is **not indicative of any sequencing failure**.
 
 This plot is the **Per Tile Sequence Quality** heatmap. It tells you whether any part of the flow cell (any tile) produced reads with systematically lower quality. This is a check for spatial artifacts on the sequencer.
 
-![image.png](attachment:ca67d404-5986-4ab2-9ddc-7221d12990e3:image.png)
+<img width="963" height="672" alt="image" src="https://github.com/user-attachments/assets/5e588fe0-c397-4a90-a72e-1119217ad93d" />
 
 1. **Almost everything is dark blue**
     
