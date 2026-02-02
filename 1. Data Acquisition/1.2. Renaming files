@@ -1,1 +1,8 @@
+1. Open Windows command prompt
+2. The syntax is 
 
+```python
+ren Original_filename.fastq new_filename.fastq
+```
+
+ren SRR1810912_1.fastq IgG.fastq
