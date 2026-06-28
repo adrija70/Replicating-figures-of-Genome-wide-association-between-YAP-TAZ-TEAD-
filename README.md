@@ -14,4 +14,8 @@ Each step builds conceptually on the previous one, and skipping ahead may make l
 
 To begin, start with the workflow overview, which provides a picture of the full analysis before diving into details.
 
+I have included the parts of the workflow that required the most independent problem-solving and implementation. The remaining downstream analyses can be reproduced by following [Tommy Tang's tutorials](https://crazyhottommy.github.io/reproduce_genomics_paper_figures/index.html), so they are not duplicated here.
+
 Happy learning!!
+
+Update: 
